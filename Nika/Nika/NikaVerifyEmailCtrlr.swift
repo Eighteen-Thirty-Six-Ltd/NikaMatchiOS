@@ -15,11 +15,13 @@ class NikaVerifyEmailCtrlr: UIViewController {
     @IBOutlet weak var TXTFIELDThree: UITextField!
     @IBOutlet weak var TXTFIELDFour: UITextField!
     
+    @IBOutlet weak var BTN_Confirm: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        BTN_Confirm.addCornerRadius(cornerRadius: 10.0)
+        BTN_Confirm.addShadow()
     }
     
 
@@ -30,7 +32,9 @@ class NikaVerifyEmailCtrlr: UIViewController {
 
     @IBAction func btnConfirmTapped(_ sender: UIButton) {
         
-        let baseNav = self.storyboard?.instantiateViewController(withIdentifier: "NikaHomeCtrlr")
-        self.present(baseNav!, animated: true, completion: nil)
+        let profileStoryboard = UIStoryboard(name: "Profile", bundle: nil)
+        let baseNav = profileStoryboard.instantiateViewController(withIdentifier: "ProfileNavigationCtrlr")
+        self.present(baseNav, animated: true, completion: nil)
+        
     }
 }

@@ -14,8 +14,7 @@ class NikaExplorectrlr: UIViewController, UITableViewDataSource, UITableViewDele
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
+    }            
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -32,6 +31,11 @@ class NikaExplorectrlr: UIViewController, UITableViewDataSource, UITableViewDele
         nikaExplor.VIEW_Container.addCornerRadius(cornerRadius: 30.0)
         
         return nikaExplor
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let baseNav = self.storyboard?.instantiateViewController(withIdentifier: "NikaProfileDetailCtrlr")
+        self.present(baseNav!, animated: true, completion: nil)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

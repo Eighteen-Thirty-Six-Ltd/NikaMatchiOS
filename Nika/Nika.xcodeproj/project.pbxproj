@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930CE0A82327749C004D1314 /* CreateProfileBasicCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0A72327749C004D1314 /* CreateProfileBasicCtrlr.swift */; };
+		930CE0AA232774B4004D1314 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930CE0A9232774B4004D1314 /* Profile.storyboard */; };
+		930CE0AE2327996C004D1314 /* CreateProfileEduInfoCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0AD2327996C004D1314 /* CreateProfileEduInfoCtrlr.swift */; };
+		930CE0B0232799AC004D1314 /* CreateProfileLanguageInfoCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0AF232799AC004D1314 /* CreateProfileLanguageInfoCtrlr.swift */; };
+		930CE0B2232799BE004D1314 /* CreateProfilePhotosCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0B1232799BE004D1314 /* CreateProfilePhotosCtrlr.swift */; };
+		930CE0B4232799E5004D1314 /* CreateProfileReligiousInfoCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0B3232799E5004D1314 /* CreateProfileReligiousInfoCtrlr.swift */; };
+		930CE0B62327A9FC004D1314 /* EditProfileViewCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930CE0B52327A9FC004D1314 /* EditProfileViewCtrlr.swift */; };
+		930F29792327C59F002AABF8 /* NikaBlockedUsersCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930F29782327C59F002AABF8 /* NikaBlockedUsersCtrlr.swift */; };
 		9327D1D123269BE0002F8B15 /* NikaExplorectrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327D1D023269BE0002F8B15 /* NikaExplorectrlr.swift */; };
 		9327D1D42326A013002F8B15 /* NikaExploreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327D1D32326A013002F8B15 /* NikaExploreCell.swift */; };
 		9327D1D62326A47E002F8B15 /* NikaMatchesctrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327D1D52326A47E002F8B15 /* NikaMatchesctrlr.swift */; };
 		9327D1D82326AB67002F8B15 /* NikaMyAccountViewCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327D1D72326AB67002F8B15 /* NikaMyAccountViewCtrlr.swift */; };
 		9327D1DA2326D3C8002F8B15 /* Chats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9327D1D92326D3C8002F8B15 /* Chats.storyboard */; };
 		9327D1DC2326D3F3002F8B15 /* NikaChatsViewCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327D1DB2326D3F3002F8B15 /* NikaChatsViewCtrlr.swift */; };
+		932908062329082600F79105 /* NikaProfileDetailCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932908052329082600F79105 /* NikaProfileDetailCtrlr.swift */; };
 		9344F59523222EDA007DDEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344F59423222EDA007DDEBE /* AppDelegate.swift */; };
 		9344F59723222EDA007DDEBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344F59623222EDA007DDEBE /* ViewController.swift */; };
 		9344F59A23222EDA007DDEBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9344F59823222EDA007DDEBE /* Main.storyboard */; };
@@ -28,6 +37,11 @@
 		9344F5CE232277A0007DDEBE /* NikaTermsAndConditionsCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344F5CD232277A0007DDEBE /* NikaTermsAndConditionsCtrlr.swift */; };
 		9344F5D0232286C4007DDEBE /* NikaVerifyEmailCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344F5CF232286C4007DDEBE /* NikaVerifyEmailCtrlr.swift */; };
 		9344F5D2232286EF007DDEBE /* NikaHomeCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9344F5D1232286EF007DDEBE /* NikaHomeCtrlr.swift */; };
+		939CD4B6232A034D004FE32F /* NikaNotificationPermissionCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939CD4B5232A034D004FE32F /* NikaNotificationPermissionCtrlr.swift */; };
+		939CD4B8232A09B7004FE32F /* NikaSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939CD4B7232A09B7004FE32F /* NikaSettingsCell.swift */; };
+		939CD4BA232A1140004FE32F /* NikaLogOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939CD4B9232A1140004FE32F /* NikaLogOutCell.swift */; };
+		93C9814C2328D8F1006531AD /* NikaBlockedUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9814B2328D8F1006531AD /* NikaBlockedUserCell.swift */; };
+		93C9814E2328E43B006531AD /* NikaLocationPermissionCtrlr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9814D2328E43B006531AD /* NikaLocationPermissionCtrlr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +62,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930CE0A72327749C004D1314 /* CreateProfileBasicCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileBasicCtrlr.swift; sourceTree = "<group>"; };
+		930CE0A9232774B4004D1314 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		930CE0AD2327996C004D1314 /* CreateProfileEduInfoCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileEduInfoCtrlr.swift; sourceTree = "<group>"; };
+		930CE0AF232799AC004D1314 /* CreateProfileLanguageInfoCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileLanguageInfoCtrlr.swift; sourceTree = "<group>"; };
+		930CE0B1232799BE004D1314 /* CreateProfilePhotosCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfilePhotosCtrlr.swift; sourceTree = "<group>"; };
+		930CE0B3232799E5004D1314 /* CreateProfileReligiousInfoCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileReligiousInfoCtrlr.swift; sourceTree = "<group>"; };
+		930CE0B52327A9FC004D1314 /* EditProfileViewCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewCtrlr.swift; sourceTree = "<group>"; };
+		930F29782327C59F002AABF8 /* NikaBlockedUsersCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaBlockedUsersCtrlr.swift; sourceTree = "<group>"; };
 		9327D1D023269BE0002F8B15 /* NikaExplorectrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaExplorectrlr.swift; sourceTree = "<group>"; };
 		9327D1D32326A013002F8B15 /* NikaExploreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaExploreCell.swift; sourceTree = "<group>"; };
 		9327D1D52326A47E002F8B15 /* NikaMatchesctrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaMatchesctrlr.swift; sourceTree = "<group>"; };
 		9327D1D72326AB67002F8B15 /* NikaMyAccountViewCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaMyAccountViewCtrlr.swift; sourceTree = "<group>"; };
 		9327D1D92326D3C8002F8B15 /* Chats.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chats.storyboard; sourceTree = "<group>"; };
 		9327D1DB2326D3F3002F8B15 /* NikaChatsViewCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaChatsViewCtrlr.swift; sourceTree = "<group>"; };
+		932908052329082600F79105 /* NikaProfileDetailCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaProfileDetailCtrlr.swift; sourceTree = "<group>"; };
 		9344F59123222EDA007DDEBE /* Nika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nika.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9344F59423222EDA007DDEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9344F59623222EDA007DDEBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +98,11 @@
 		9344F5CD232277A0007DDEBE /* NikaTermsAndConditionsCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaTermsAndConditionsCtrlr.swift; sourceTree = "<group>"; };
 		9344F5CF232286C4007DDEBE /* NikaVerifyEmailCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaVerifyEmailCtrlr.swift; sourceTree = "<group>"; };
 		9344F5D1232286EF007DDEBE /* NikaHomeCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaHomeCtrlr.swift; sourceTree = "<group>"; };
+		939CD4B5232A034D004FE32F /* NikaNotificationPermissionCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaNotificationPermissionCtrlr.swift; sourceTree = "<group>"; };
+		939CD4B7232A09B7004FE32F /* NikaSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaSettingsCell.swift; sourceTree = "<group>"; };
+		939CD4B9232A1140004FE32F /* NikaLogOutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaLogOutCell.swift; sourceTree = "<group>"; };
+		93C9814B2328D8F1006531AD /* NikaBlockedUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaBlockedUserCell.swift; sourceTree = "<group>"; };
+		93C9814D2328E43B006531AD /* NikaLocationPermissionCtrlr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikaLocationPermissionCtrlr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +130,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		930CE0A6232773A6004D1314 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				930CE0A72327749C004D1314 /* CreateProfileBasicCtrlr.swift */,
+				930CE0A9232774B4004D1314 /* Profile.storyboard */,
+				930CE0AD2327996C004D1314 /* CreateProfileEduInfoCtrlr.swift */,
+				930CE0AF232799AC004D1314 /* CreateProfileLanguageInfoCtrlr.swift */,
+				930CE0B1232799BE004D1314 /* CreateProfilePhotosCtrlr.swift */,
+				930CE0B3232799E5004D1314 /* CreateProfileReligiousInfoCtrlr.swift */,
+				930CE0B52327A9FC004D1314 /* EditProfileViewCtrlr.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		9327D1D223269FF3002F8B15 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				9327D1D32326A013002F8B15 /* NikaExploreCell.swift */,
+				93C9814B2328D8F1006531AD /* NikaBlockedUserCell.swift */,
+				939CD4B7232A09B7004FE32F /* NikaSettingsCell.swift */,
+				939CD4B9232A1140004FE32F /* NikaLogOutCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +178,7 @@
 		9344F59323222EDA007DDEBE /* Nika */ = {
 			isa = PBXGroup;
 			children = (
+				930CE0A6232773A6004D1314 /* Profile */,
 				9327D1D223269FF3002F8B15 /* Views */,
 				9344F5C223222F1C007DDEBE /* OnBoarding */,
 				9344F59423222EDA007DDEBE /* AppDelegate.swift */,
@@ -152,6 +198,10 @@
 				9327D1D72326AB67002F8B15 /* NikaMyAccountViewCtrlr.swift */,
 				9327D1D92326D3C8002F8B15 /* Chats.storyboard */,
 				9327D1DB2326D3F3002F8B15 /* NikaChatsViewCtrlr.swift */,
+				930F29782327C59F002AABF8 /* NikaBlockedUsersCtrlr.swift */,
+				93C9814D2328E43B006531AD /* NikaLocationPermissionCtrlr.swift */,
+				932908052329082600F79105 /* NikaProfileDetailCtrlr.swift */,
+				939CD4B5232A034D004FE32F /* NikaNotificationPermissionCtrlr.swift */,
 			);
 			path = Nika;
 			sourceTree = "<group>";
@@ -289,6 +339,7 @@
 			files = (
 				9344F59F23222EDE007DDEBE /* LaunchScreen.storyboard in Resources */,
 				9344F59C23222EDE007DDEBE /* Assets.xcassets in Resources */,
+				930CE0AA232774B4004D1314 /* Profile.storyboard in Resources */,
 				9327D1DA2326D3C8002F8B15 /* Chats.storyboard in Resources */,
 				9344F59A23222EDA007DDEBE /* Main.storyboard in Resources */,
 			);
@@ -315,20 +366,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939CD4BA232A1140004FE32F /* NikaLogOutCell.swift in Sources */,
 				9344F5D0232286C4007DDEBE /* NikaVerifyEmailCtrlr.swift in Sources */,
 				9327D1D123269BE0002F8B15 /* NikaExplorectrlr.swift in Sources */,
 				9327D1DC2326D3F3002F8B15 /* NikaChatsViewCtrlr.swift in Sources */,
+				930CE0B4232799E5004D1314 /* CreateProfileReligiousInfoCtrlr.swift in Sources */,
 				9327D1D62326A47E002F8B15 /* NikaMatchesctrlr.swift in Sources */,
+				93C9814C2328D8F1006531AD /* NikaBlockedUserCell.swift in Sources */,
 				9344F5D2232286EF007DDEBE /* NikaHomeCtrlr.swift in Sources */,
 				9344F59723222EDA007DDEBE /* ViewController.swift in Sources */,
+				93C9814E2328E43B006531AD /* NikaLocationPermissionCtrlr.swift in Sources */,
+				930CE0B2232799BE004D1314 /* CreateProfilePhotosCtrlr.swift in Sources */,
+				930CE0A82327749C004D1314 /* CreateProfileBasicCtrlr.swift in Sources */,
 				9344F5CA23223D0D007DDEBE /* Extensions.swift in Sources */,
+				930F29792327C59F002AABF8 /* NikaBlockedUsersCtrlr.swift in Sources */,
 				9344F5CE232277A0007DDEBE /* NikaTermsAndConditionsCtrlr.swift in Sources */,
+				939CD4B8232A09B7004FE32F /* NikaSettingsCell.swift in Sources */,
 				9327D1D42326A013002F8B15 /* NikaExploreCell.swift in Sources */,
 				9344F5C8232231FD007DDEBE /* NikeSignUpController.swift in Sources */,
 				9344F5C6232230BB007DDEBE /* NikaOnBoardingContentController.swift in Sources */,
 				9344F59523222EDA007DDEBE /* AppDelegate.swift in Sources */,
 				9344F5CC2322777F007DDEBE /* NikaPrivacyCtrlr.swift in Sources */,
+				930CE0AE2327996C004D1314 /* CreateProfileEduInfoCtrlr.swift in Sources */,
+				930CE0B0232799AC004D1314 /* CreateProfileLanguageInfoCtrlr.swift in Sources */,
+				930CE0B62327A9FC004D1314 /* EditProfileViewCtrlr.swift in Sources */,
 				9344F5C423222F3C007DDEBE /* NikaOnBoardingPageCtrlr.swift in Sources */,
+				932908062329082600F79105 /* NikaProfileDetailCtrlr.swift in Sources */,
+				939CD4B6232A034D004FE32F /* NikaNotificationPermissionCtrlr.swift in Sources */,
 				9327D1D82326AB67002F8B15 /* NikaMyAccountViewCtrlr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

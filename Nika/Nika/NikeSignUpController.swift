@@ -52,6 +52,10 @@ class NikeSignUpController: UIViewController {
         super.viewWillAppear(animated)
         
         VIEW_Bottom.addCornerRadius(cornerRadius: 20.0)
+        
+        BTN_Sign.addCornerRadius(cornerRadius: 10.0)
+        BTN_Sign.addShadow()
+        
         self.btnLoginModeSignUpTapped(BTN_LoginModeSignUp)
     }
     
